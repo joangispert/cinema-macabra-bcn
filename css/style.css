@@ -1,0 +1,116 @@
+/* styles.css */
+
+/* Reset de marges i padding */
+html, body {
+    background-color: #353030 !important;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #141414;
+    color: #000000;
+}
+
+/* Estils per a la navbar */
+ul.nav {
+    background-color: #353030 !important;
+}
+
+nav {
+    background-color: #000000;
+    padding: 20px;
+    border-bottom: 2px solid #8B0000;
+}
+
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #B71C1C;
+}
+
+.nav-link{
+    color:red !important;
+}
+
+/* Estils per al contenidor principal */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+/* Estils per a les files i columnes */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+.col {
+    flex: 1;
+    min-width: 300px;
+    margin: 10px;
+    padding: 50px;
+    background-color: #242424;
+    border: 1px solid #444;
+    border-radius: 8px;
+}
+/* Estils per a títols i paràgrafs */
+h1, h2 {
+    color: #333;
+}
+
+p {
+    color: #666;
+}
+
+footer {
+    background-color: rgb(169, 169, 167);
+    color: rgb(44, 48, 48);
+    text-align: center;
+    padding: 45px 20px;
+    width: 100%;
+    margin-top: 40px;
+    position: static;
+}
+
+footer h2 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+footer h2::after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: #B71C1C;
+    margin: 15px auto;
+}
+
+footer p {
+    color: rgb(44, 48, 48);
+    font-size: 16px;
+    margin-bottom: 0;
+}
